@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css" />
     <link rel="stylesheet" href="dist/css/style.min.css" />
   </head>
   <body>
@@ -13,11 +14,17 @@
     <!-- ! EDITOR -->
     <div class="netflix-container justify-content-end me-sm-0 me-md-5 me-lg-9 me-xl-10 me-xxl-11">
       <div cla>
-        <h1>Edit Profile</h1>
+        <h1 class="fw-bold">Edit Profile</h1>
         <hr />
         <div class="d-flex pe-5">
           <div class="me-3">
-            <img src="assets/imgs/avatar.png" alt="avavatar" width="120px" />
+            <div class="position-relative">
+              <img src="assets/imgs/avatar.png" alt="avavatar" width="120px" />
+
+              <span class="position-absolute bottom-0 start-0 ms-3 mt4 translate-middle badge rounded-pill bg-black">
+                <i class="bi bi-pencil-fill"></i
+              ></span>
+            </div>
           </div>
           <div class="flex-grow-1">
             <div class="bg-secondary">

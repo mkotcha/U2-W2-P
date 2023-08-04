@@ -12289,4 +12289,11 @@ textarea.form-control-lg {
 }
 .preview-container img {
   width: 250px;
+}
+
+header div div a.view-box:hover {
+  border: 1px solid white !important;
+}
+header div div a.view-box i:hover {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
