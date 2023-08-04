@@ -1,0 +1,8 @@
+@import "overrides";
+
+.preview-container {
+  overflow-x: hidden;
+  img {
+    width: 250px;
+  }
+}
