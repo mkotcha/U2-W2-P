@@ -11,7 +11,7 @@
       <img src="assets/imgs/netflix_logo.png" alt="Netflix logo" width="110px" />
     </div>
     <!-- ! EDITOR -->
-    <div class="netflix-container justify-content-end">
+    <div class="netflix-container justify-content-end me-sm-0 me-md-5 me-lg-9 me-xl-10 me-xxl-11">
       <div cla>
         <h1>Edit Profile</h1>
         <hr />
@@ -23,7 +23,47 @@
             <div class="bg-secondary">
               <p class="fs-4 fw-bold p-2">Strive Student</p>
             </div>
+            <p class="mb-1">Language:</p>
+            <div class="dropdown">
+              <button
+                class="btn btn-outline-secondary text-white dropdown-toggle py-0"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+                English
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">English</a></li>
+                <li><a class="dropdown-item" href="#">Italian</a></li>
+                <li><a class="dropdown-item" href="#">French</a></li>
+              </ul>
+            </div>
+            <hr />
+            <p class="mb-3">Maturity Settings:</p>
+            <div class="bg-dark text-white fs-6 p-2 fw-bold d-inline-block mb-3">ALL MATURITY RATINGS</div>
+            <p class="fs-7">Show titles of all maturity ratings for this profile.</p>
+            <button type="button" class="btn btn-outline-secondary px-4 mb-2">EDIT</button>
+            <hr />
+            <p>Autoplay controls</p>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="autoNext" />
+              <label class="form-check-label fs-7" for="autoNext"
+                >Autoplay next episode in a series on all devices.</label
+              >
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="autoPrev" />
+              <label class="form-check-label fs-7" for="autoPrev"
+                >Autoplay previews while browsing on all devices.</label
+              >
+            </div>
           </div>
+        </div>
+        <hr />
+        <div class="d-flex">
+          <button type="button" class="btn btn-outline-secondary px-4 me-4 fs-5 active">SAVE</button>
+          <button type="button" class="btn btn-outline-secondary px-4 me-4 fs-5">CANCEL</button>
+          <button type="button" class="btn btn-outline-secondary px-4 me-4 fs-5">DELETE PROFILE</button>
         </div>
       </div>
     </div>

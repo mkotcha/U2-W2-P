@@ -16,6 +16,7 @@
 
 $body-bg-dark: #141414;
 $secondary: #808080;
+$dark: #333333;
 
 $custom-display-font-sizes: (
   7: 2rem,
@@ -46,21 +47,29 @@ $custom-spacers: (
   11: $spacer * 25,
 );
 
+$form-check-input-width: 20px;
+$form-check-input-border-radius: 0;
+$form-check-input-width: 2em;
+// $form-check-min-height: 30px;
+$form-check-input-bg: transparent;
+$form-check-input-checked-bg-color: transparent;
+$form-check-input-checked-border-color: $secondary;
+$form-check-input-focus-border: $secondary;
+$form-check-input-focus-box-shadow: none;
+// Container padding
 $grid-columns: 12;
 $grid-gutter-width: 1.5rem;
 $grid-row-columns: 6;
-
-// Container padding
 
 $btn-border-radius: 0;
 
 // Source mixin
 $container-padding-x: $grid-gutter-width;
 @mixin make-container($padding-x: $container-padding-x) {
-  width: 40%;
+  max-width: 550px;
   padding-right: $padding-x;
   padding-left: $padding-x;
-  margin-right: 20%;
+  margin-right: auto;
   margin-left: auto;
 }
 // Usage
