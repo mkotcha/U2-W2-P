@@ -7,6 +7,13 @@
   }
 }
 
+.preview-container2 {
+  // overflow-x: hidden;
+  img {
+    width: 250px;
+  }
+}
+
 header div div a.view-box {
   &:hover {
     border: 1px solid white !important;
@@ -14,4 +21,13 @@ header div div a.view-box {
   i:hover {
     color: white;
   }
+}
+
+.carousel-inner {
+  // display: flex;
+}
+.carousel-item {
+  // flex: 0 0 33%;
+  // display: block;
+  // margin-right: 0;
 }
