@@ -9902,6 +9902,9 @@ textarea.form-control-lg {
   width: 250px;
 }
 
+.preview-container2 {
+  transition: left 1s;
+}
 .preview-container2 img {
   width: 250px;
 }
