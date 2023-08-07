@@ -5,13 +5,13 @@ let cardWidth = 250;
 let scrollPosition = 0;
 let scrollStr;
 
-const nextScroll = event => {
+const prevScroll = event => {
   scrollPosition += cardWidth;
   console.log(scrollPosition);
   document.querySelector(".carousel-inner").style.left = scrollPosition + "px";
 };
 
-const prevScroll = event => {
+const nextScroll = event => {
   scrollPosition -= cardWidth;
   console.log(scrollPosition);
   document.querySelector(".carousel-inner").style.left = scrollPosition + "px";

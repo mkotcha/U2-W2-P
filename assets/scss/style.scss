@@ -26,9 +26,11 @@ header div div a.view-box {
 
 .carousel-inner {
   // display: flex;
+  overflow: visible;
 }
-.carousel-item {
+.carousel {
   // flex: 0 0 33%;
   // display: block;
   // margin-right: 0;
+  overflow: hidden;
 }

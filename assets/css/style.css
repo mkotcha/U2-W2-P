@@ -9914,4 +9914,12 @@ header div div a.view-box:hover {
 }
 header div div a.view-box i:hover {
   color: white;
+}
+
+.carousel-inner {
+  overflow: visible;
+}
+
+.carousel {
+  overflow: hidden;
 }/*# sourceMappingURL=style.css.map */
